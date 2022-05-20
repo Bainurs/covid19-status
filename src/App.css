@@ -1,0 +1,10 @@
+.wrapper {
+  display: block;
+  background-color: #EDF7FF;
+}
+.container {
+  width: 1200px;
+  padding-top: 66px;
+  margin: 0 auto;
+  display: block;
+}
