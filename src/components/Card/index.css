@@ -1,6 +1,56 @@
 .card {
+  padding: 20px;
   display: flex;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 142px;
+  width: 760px;
 }
-.card__day {
-  
+.card-day {
+  display: flex;
+  width: 40%;
+  height: auto;
+  padding-left: 30px;
+  align-items: center;
 }
+.card-day__text {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto',serif; 
+  color: #242632;
+}
+.card-status {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: auto;
+  align-items: center;
+}
+.card__active,
+.card__deaths,
+.card__confirmed,
+.card__recovered {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  width: 209px;
+  height: 41px;
+}
+
+.card__text {
+  font-weight: 400;
+  font-family: 'Roboto',serif;
+  font-size: 18px;
+}
+.card__number {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #EDF7FF;
+  border-radius: 5px;
+}
+

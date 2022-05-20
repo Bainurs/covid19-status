@@ -1,0 +1,9 @@
+.recovery {
+  display: flex;
+  width: 380px;
+  height: 450px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #1BBC9B;
+  color: white;
+}

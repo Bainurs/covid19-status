@@ -8,3 +8,18 @@
   border-radius: 5px;
   margin-bottom: 40px;
 }
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.recovery-wrap,
+.card-wrap {
+  flex: 1 0 0%;
+}
+.card-wrap {
+  width: 800px;
+}
+.recovery-wrap {
+  width: 400px;
+}

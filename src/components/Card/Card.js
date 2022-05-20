@@ -3,12 +3,12 @@ import './index.css'
 const Card = ({card}) => {
   return ( 
     <div className="card">
-        <div className="card__day">
-          <span className="card__day-text">
+        <div className="card-day">
+          <span className="card-day__text">
             {card.Date}
           </span>
         </div>
-        <div className="card__status">
+        <div className="card-status">
           <div className="card__active">
             <span className="card__text">Active</span>
             <span className="card__number">{card.Active}</span>

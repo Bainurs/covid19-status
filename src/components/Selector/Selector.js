@@ -2,6 +2,7 @@ import {useState, useEffect, useCallback} from 'react'
 import axios from 'axios'
 import './index.css'
 import Card from '../Card/Card'
+import Recovery from '../Recovery/Recovery'
 
 const Selector = () => {
   const [country, setCountry] = useState('Kyrgyzstan');
@@ -55,9 +56,16 @@ const Selector = () => {
         <option key={item.ISO2} value={item.Country}>{item.Country}</option>
       ))}
       </select>
-      {countryData.map((item, index) => (
-        <Card key={index} card={item} />
-      ))}
+      <div className="content">
+        <div className="card-wrap">
+          {countryData.map((item, index) => (
+            <Card key={index} card={item} />
+          ))}
+        </div>
+        <div className="recovery-wrap">
+          <Recovery />
+        </div>
+      </div>
     </>
    );
 }

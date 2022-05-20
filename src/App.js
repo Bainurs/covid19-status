@@ -8,7 +8,6 @@ function App() {
     <div className="wrapper">
       <div className="container">
         <Selector />
-        <Recovery />
       </div>
     </div>
   );
